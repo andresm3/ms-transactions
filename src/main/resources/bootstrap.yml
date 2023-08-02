@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: transactions
+  cloud:
+    config:
+      uri: http://localhost:7000
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
